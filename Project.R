@@ -466,7 +466,3 @@ table(pred_test_xg)
 misclass_xg <- sum(abs(as.numeric(test_target) - pred_test_xg)/length(pred_test_xg))
 
 misclass_rf
-
-library(xgboost)
-
-?xgboost
